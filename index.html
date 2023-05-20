@@ -82,8 +82,10 @@
       }
 
       function decrement() {
+        if (counter >0) {
         counter--; // decrement counter
         document.getElementById("counter").innerHTML = counter; // update counter display
+        }
       }
 
       function reset() {
